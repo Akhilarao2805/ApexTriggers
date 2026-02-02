@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="record form for edit using LDS">
+        <lightning-record-form record-id={recordId} object-api-name={objectApiName}
+        mode="edit"  fields={fields} onsubmit={handleSubmit}>
+        </lightning-record-form>
+        <lightning-datatable key-field="Id"
+        data={data}
+        columns={columns}>
+        </lightning-datatable>
+    </lightning-card> 
+
+</template>
