@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Record View Form - Opportunity">
+        <lightning-record-view-form
+            record-id={recordId}
+            object-api-name={objectApiName}
+            density="compact">
+
+            <lightning-output-field field-name={idfield}></lightning-output-field>
+            <lightning-output-field field-name={namefield}></lightning-output-field>
+            <lightning-output-field field-name={stagefield}></lightning-output-field>
+            <lightning-output-field field-name={amountfield}></lightning-output-field>
+            <lightning-output-field field-name={closedatefield}></lightning-output-field>
+
+        </lightning-record-view-form>
+    </lightning-card>
+</template>

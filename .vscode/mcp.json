@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "Salesforce": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@salesforce/mcp", "--orgs", "tachyon", "--toolsets", "all"]
+    }
+  }
+}
